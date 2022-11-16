@@ -29,9 +29,9 @@ console.log(currentWeather)
 
 
   return (
-    <div className='my-20' >
+    <div className=' p-0 m-0' >
 
-      <div className='containerBox max-w-screen-lg h-fit p-6 m-auto my-5 bg-gradient-to-br from-cyan-700 to-blue-700 shadow-2xl shadow-gray-700'>
+      <div className='containerBox absolute w-[100%] h-screen l-0 t-0 p-3 m-0 bg-gradient-to-br from-cyan-700 to-blue-700 shadow-2xl shadow-gray-700 lg:relative lg:max-w-screen-lg lg:mx-auto lg:h-fit lg:my-1'>
 
         <SearchBox onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentForecast data={currentWeather} />}

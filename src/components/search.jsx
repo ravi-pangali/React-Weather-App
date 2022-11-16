@@ -29,7 +29,7 @@ const SearchBox = ({ onSearchChange }) => {
   }
 
   return (
-    <div className='SearchBox flex w-full px-20 pt-3'>
+    <div className='SearchBox flex w-full px-1 pt-1 lg:px-20 pt-5'>
       <AsyncPaginate
         className='w-full'
         placeholder="Search....."
